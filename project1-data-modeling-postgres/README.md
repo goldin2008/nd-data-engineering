@@ -92,6 +92,6 @@ Do the following steps in your README.md file.
 1. Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
 2. State and justify your database schema design and ETL pipeline.
 3. [Optional] Provide example queries and results for song play analysis.
-Here's a guide on Markdown Syntax.
+Here's a guide on Markdown Syntax. https://www.markdownguide.org/basic-syntax/
 
 NOTE: You will not be able to run test.ipynb, etl.ipynb, or etl.py until you have run create_tables.py at least once to create the sparkifydb database, which these other files connect to.
