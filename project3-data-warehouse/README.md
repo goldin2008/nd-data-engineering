@@ -22,13 +22,15 @@ List of tables
 - artists: Artists in the app's music database.
 - time: Timestamps of records in songplays.
 
-## How to run the scripts: 
+`s3 bucket`: https://s3.console.aws.amazon.com/s3/buckets/udacity-dend/?region=us-west-2&tab=overview
+
+## How to run the scripts:
 
 ```
 $ python create_tables.py
 ```
 
-followed with 
+followed with
 
 ```
 python etl.py
@@ -47,7 +49,7 @@ python etl.py
 
 1. Delete if exists and create all tables listed in the "Schema Design" section above. This is done in `create_tables.py`. The other points below are done in the `etl.py` script.
 2. Copy all data from `s3://udacity-dend/song_data` and `s3://udacity-dend/log_data` to staging tables `staging_songs` and `staging_events`, respectively. These staging tables have the exact same structure with the raw json files.
-3. Run SQL queries to select data from staging tables and then directly insert them to the other 5 tables (i.e. our OLAP/analytical tables). When running the insert code, handle duplicate records by not inserting values when duplicates are found (code like `WHERE user_id NOT IN (SELECT DISTINCT user_id FROM users)` deals with this problem). 
+3. Run SQL queries to select data from staging tables and then directly insert them to the other 5 tables (i.e. our OLAP/analytical tables). When running the insert code, handle duplicate records by not inserting values when duplicates are found (code like `WHERE user_id NOT IN (SELECT DISTINCT user_id FROM users)` deals with this problem).
 
 ## Additional
 
