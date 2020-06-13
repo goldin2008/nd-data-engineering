@@ -1,4 +1,4 @@
-# Project 1 - Data Modeling with PostgreSQL 
+# Project 1 - Data Modeling with PostgreSQL
 
 ## Introduction
 
@@ -12,8 +12,6 @@ The pipeline contains the following processes:
 2. Load json data from multiple data sources.
 3. Preprocess the raw data in order to meet star schema structure requirements.
 4. Insert data to the defined table.
-
-## Introduction
 
 _The content of the following section is from the project statement provided by Udacity._
 
@@ -61,7 +59,7 @@ log_data/2018/11/2018-11-13-events.json
 
 [![songplay_analysis_schema](./images/songplay_analysis_schema.png)](https://dbdiagram.io/d/5ecff07d39d18f5553ffe9ca)
 
-As you can see from the diagram above (click on the image for further details) we are using a **Star schema** with `songplays` as a **fact** table and references `users`, `songs`, `artists` and `time` as **dimension** tables. 
+As you can see from the diagram above (click on the image for further details) we are using a **Star schema** with `songplays` as a **fact** table and references `users`, `songs`, `artists` and `time` as **dimension** tables.
 
 The `songplays` fact table consists of the user activity on the music streaming app. The purpose is to analyze the songs users are listening to.
 
@@ -106,7 +104,7 @@ sudo apt-get update
 sudo apt-get instal postgresql postgresql-contrib
 ```
 
-Furthermore, a `student` user and a `sparkify` database must be created. 
+Furthermore, a `student` user and a `sparkify` database must be created.
 
 You can use the following commands to do this (enter `student` as a password when the prompted):
 
@@ -117,7 +115,7 @@ createdb sparkify -U student
 
 #### Python packages
 
-The `psycopg2` and `pandas` packages must be installed on your machine. 
+The `psycopg2` and `pandas` packages must be installed on your machine.
 
 Use the [pip](https://pypi.org/project/pip/) package installer to install these:
 
@@ -161,7 +159,7 @@ To check that the database was properly created you can run the cells in the `te
 
 This project assumes that you can connect postgreSQL database. If you setup your own database server, you should fix connection parameters which are hard coded in the source codes such as `conn = psycopg2.connect("host=127.0.0.1 dbname=studentdb user=student password=student")`.
 
-The dependencies are defined in `requirements.txt`. In the project's directory, the following command will install required dependencies. 
+The dependencies are defined in `requirements.txt`. In the project's directory, the following command will install required dependencies.
 
 ```
 pip3 install pip install -r requirements.txt
@@ -172,7 +170,7 @@ pip3 install pip install -r requirements.txt
 ### Table Definition
 
 In this project, the following tables are defined.Processed data are stored in a relational database system (PostgreSQL). This database have multiple dimensional table and single fact table. The schema difines the following tables.
-  
+
 ### Schema of database : **sparkifydb**
 The database **sparkifydb** consist of 5 tables, and their columns are given below:
 #### Fact Table
@@ -200,7 +198,7 @@ The database **sparkifydb** consist of 5 tables, and their columns are given bel
     - *year*, int, release year of song
     - *duration*, numeric, duration of song (in seconds)
 4.	**artists** - artists in music database
-    - *artist_id*, varchar, artist id 
+    - *artist_id*, varchar, artist id
     - *name*, varchar, artist name
     - *location*, varchar, location of artist
     - *latitude*, numeric, latitude of artist's location
@@ -213,7 +211,7 @@ The database **sparkifydb** consist of 5 tables, and their columns are given bel
     - *month*, int, month of *start_time*
     - *year*, int, year of *start_time*
     - *weekday*, int, weekday of *start_time*
-    
+
 ## License
 
 **DISCLAIMER:** This project is part of the Data Engineering Nanodegree Program from Udacity. You must abide by [Udacity's Honor of Code](https://udacity.zendesk.com/hc/en-us/articles/210667103-What-is-the-Udacity-Honor-Code-), and in particular, you must submit your own work or attribute my code if you want to use part of my solution.
