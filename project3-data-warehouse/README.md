@@ -23,6 +23,7 @@ List of tables
 - time: Timestamps of records in songplays.
 
 `s3 bucket`: https://s3.console.aws.amazon.com/s3/buckets/udacity-dend/?region=us-west-2&tab=overview
+access it using aws cli... search the command for it... aws cli is explained in Data lake..
 
 ## How to run the scripts:
 
