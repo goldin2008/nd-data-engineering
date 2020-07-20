@@ -51,3 +51,6 @@ https://github.com/xingyazhou/udacity-data-pipelines-with-airflow
 
 ### Capstone Project
 In this Capstone project, students will define the scope of the project and the data they will be working with to demonstrate what they have learned in this Data Engineering Nanodegree.
+
+https://github.com/xingyazhou/udacity-dend-capstone-project
+
