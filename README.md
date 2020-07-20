@@ -15,5 +15,9 @@ Students will build a data lake and an ETL pipeline in Spark that loads data fro
 ### Project 5: Data Pipelines
 Students continue to work on the music streaming company’s data infrastructure by creating and automating a set of data pipelines with Airflow, monitoring and debugging production pipelines
 
+https://github.com/benjigoldberg/udacity-airflow
+https://github.com/brfulu/airflow-data-pipeline
+
+
 ### Capstone Project
 In this Capstone project, students will define the scope of the project and the data they will be working with to demonstrate what they have learned in this Data Engineering Nanodegree.
