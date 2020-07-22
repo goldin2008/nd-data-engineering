@@ -54,3 +54,7 @@ In this Capstone project, students will define the scope of the project and the 
 
 https://github.com/xingyazhou/udacity-dend-capstone-project
 
+https://github.com/jukkakansanaho/udacity-dend-project-capstone
+
+https://github.com/brfulu/us-accidents-data-engineering
+
