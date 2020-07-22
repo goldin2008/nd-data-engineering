@@ -62,3 +62,13 @@ https://github.com/brfulu/us-accidents-data-engineering
 
 https://github.com/kudeh/udacity-dend-capstone
 
+https://github.com/dai-dao/udacity-data-engineering-capstone
+
+https://github.com/rossgray/udacity-data-eng-project
+
+https://github.com/gruszkam/data-engineering-capstone
+
+https://github.com/sortizm/DataEngineeringUdacity
+
+https://github.com/weinanlee/data-engineering-capstone-project
+
