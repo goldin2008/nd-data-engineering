@@ -128,6 +128,15 @@ The following task will be executed:
   load_time_dimension_table,)
 - Execute a task to check quality of data (run_quality_checks)
 
+In this project most of ETL is done with Python:
+
+- Firstly reads song_data and load_data from S3 to staging tables.
+- From staging tables fact and dimension tables are been loading.
+- **stage_redshift.py** contains  `StageToRedshiftOperator `, which loads any JSON formatted files from S3 to Amazon Redshift.
+- **load_fact.py** contains  `LoadFactOperator `, which loads a fact table from data in the staging tables.
+- **load_dimension.py** contains  `LoadDimensionOperator `, which loads a dimension table from data in the staging tables.
+- **data_quality.py** contains  `DataQualityOperator `, which runs checks on the data itself. Main functionality is to receive one or more SQL based test cases along with the expected results and execute the tests
+
 
 # Execution
 
