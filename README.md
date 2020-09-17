@@ -1,4 +1,5 @@
 # Data Engineering Nanodegree Program
+> https://github.com/vanducng/Data-Engineering-HowTo
 
 ### Project 1: Data Modeling with Postgres
 Students will model user activity data to create a database and ETL pipeline in Postgres for a music streaming app. They will define Fact and Dimension tables and insert data into new tables.
