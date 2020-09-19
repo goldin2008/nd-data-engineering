@@ -6,6 +6,8 @@
 ### Project 1: Data Modeling with Postgres
 Students will model user activity data to create a database and ETL pipeline in Postgres for a music streaming app. They will define Fact and Dimension tables and insert data into new tables.
 
+https://github.com/BaiHuang89/DataModelingWithPostgres
+
 ### Project 2: Data Modeling with Apache Cassandra
 Students will model event data to create a non-relational database and ETL pipeline for a music streaming app. They will define queries and tables for a database built using Apache Cassandra.
 
