@@ -12,8 +12,14 @@ Students will model event data to create a non-relational database and ETL pipel
 ### Project 3: Data Warehouse
 Students will build an ETL pipeline that extracts data from S3, stages them in Redshift, and transforms data into a set of dimensional tables for their analytics team.
 
+https://github.com/rakeshpaulraj/Datawarehouse_on_AWS_Redshift
+
+https://github.com/jkoth/DW-on-AWS-Redshift
+
 ### Project 4: Data Lake
 Students will build a data lake and an ETL pipeline in Spark that loads data from S3, processes the data into analytics tables, and loads them back into S3.
+
+https://github.com/jkoth/Data-Lake-with-Spark-and-AWS-S3
 
 ### Project 5: Data Pipelines
 Students continue to work on the music streaming company’s data infrastructure by creating and automating a set of data pipelines with Airflow, monitoring and debugging production pipelines
