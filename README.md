@@ -1,7 +1,6 @@
 # Data Engineering Nanodegree Program
 
-`Project 1: Data Modeling with Postgres`
-
+#### Project 1: Data Modeling with Postgres
 Students will model user activity data to create a database and ETL pipeline in Postgres for a music streaming app. They will define Fact and Dimension tables and insert data into new tables.
 
 #### Project 2: Data Modeling with Apache Cassandra
